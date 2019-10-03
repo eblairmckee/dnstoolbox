@@ -1,0 +1,62 @@
+@import 'src/variables';
+@import 'src/mixins';
+
+.page--dashboard {
+	height: 100vh;
+	width: 100%;
+	// background-image: url(../../assets/background-analytics.png);
+}
+
+.dash {
+	&__wrapper {
+		max-width: 1200px;
+	}
+}
+
+.card__header {
+	background: #343a6a;
+	padding: 20px 0px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid__health-gauge {
+	display: grid;
+	grid-template-columns: 1fr 200px 1fr;
+	align-items: flex-end;
+	grid-gap: 40px;
+	@include media($tablet-breakpoint) {
+		grid-template-columns: auto;
+		.text--right {
+			text-align: center;
+		}
+	}
+}
+
+.color {
+	&--good {
+		color: $good-color;
+	}
+	&--okay {
+		color: $okay-color;
+	}
+	&--bad {
+		color: $bad-color;
+	}
+}
+
+.popover__trigger {
+	cursor: pointer;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: $primary--light;
+}
+
+.copy-icon {
+	color: $primary--light;
+}
+
+.text--shareURL input {
+	color: $primary--lighter !important;
+}

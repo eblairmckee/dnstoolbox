@@ -1,0 +1,29 @@
+@import 'src/variables';
+
+@keyframes infinite-spinning {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.loading {
+	&__background {
+		background-image: linear-gradient($primary, $primary--darkest);
+		width: 120px;
+		height: 120px;
+		border-radius: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid $primary;
+		box-shadow: $box-shadow--light;
+		box-shadow: 0 3px 7px $text-glow;
+	}
+	&__icon {
+		max-height: 90px;
+		animation: infinite-spinning 2s infinite;
+	}
+}

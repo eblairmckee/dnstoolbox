@@ -1,0 +1,55 @@
+@mixin media($width) {
+	@media only screen and (max-width: $width) {
+		@content;
+	}
+}
+
+$padding: 10 15 20 50 100 200;
+
+@each $item in $padding {
+	.padding-bottom-#{$item} {
+		padding-bottom: #{$item}px;
+	}
+
+	.padding-top-#{$item} {
+		padding-top: #{$item}px;
+	}
+
+	.padding-#{$item} {
+		padding: #{$item}px 0px;
+	}
+
+	.padding-left-#{$item} {
+		padding-left: #{$item}px;
+	}
+
+	.padding-right-#{$item} {
+		padding-right: #{$item}px;
+	}
+}
+
+/* Margins */
+
+$margin: 10 20 50 100;
+
+@each $item in $margin {
+	.margin-bottom-#{$item} {
+		margin-bottom: #{$item}px;
+	}
+
+	.margin-top-#{$item} {
+		margin-top: #{$item}px;
+	}
+
+	.margin-#{$item} {
+		margin: #{$item}px 0px;
+	}
+
+	.margin-left-#{$item} {
+		margin-left: #{$item}px;
+	}
+
+	.margin-right-#{$item} {
+		margin-right: #{$item}px;
+	}
+}

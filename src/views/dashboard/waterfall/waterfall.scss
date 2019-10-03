@@ -1,0 +1,11 @@
+@import 'src/variables';
+
+.bb-chart-arcs-title,
+.bb-legend-item {
+	fill: $primary--lightest;
+	text-shadow: 1px 1px 5px $text-glow;
+}
+
+.bb-chart-arcs-title {
+	font-size: 3em;
+}

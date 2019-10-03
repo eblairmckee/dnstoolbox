@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,AAAC,CACV,MAAM,CAAE,OAAO,CACf,KAAK,CCJI,OAAO,CDKhB,AACD,AAAA,aAAa,AAAC,CACb,WAAW,CAAE,GAAG,CAChB",
+    "sources": [
+        "backbutton.modules.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "backbutton.modules.css"
+}

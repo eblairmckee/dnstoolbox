@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC,eAAe,AAAC,CAC7B,IAAI,CAAE,IAAI,CACV,WAAW,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CCoBb,qBAAwB,CDnBnC",
+    "sources": [
+        "healthgauge.modules.scss",
+        "../../../_variables.scss"
+    ],
+    "names": [],
+    "file": "healthgauge.modules.css"
+}

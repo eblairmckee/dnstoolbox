@@ -1,0 +1,10 @@
+@import '../../../variables';
+
+.bb-chart-arc .bb-gauge-value {
+	fill: #fff;
+	text-shadow: 1px 1px 5px $text-glow;
+}
+
+.bb-chart-arcs .bb-chart-arcs-background {
+	fill: lighten($background-color, 20%);
+}

@@ -1,0 +1,33 @@
+@import 'src/variables';
+
+.nav {
+	&__link {
+		text-decoration: none;
+		display: flex;
+		justify-content: flex-start;
+	}
+}
+
+.logo {
+	&__wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px;
+	}
+	&__background {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 120px;
+		width: 120px;
+		background-image: linear-gradient($primary, $primary--darkest);
+		border-radius: 100%;
+		border: 2px solid $primary;
+		box-shadow: $box-shadow--light;
+		box-shadow: 0 3px 7px $text-glow;
+	}
+	&__image {
+		max-height: 100px;
+	}
+}

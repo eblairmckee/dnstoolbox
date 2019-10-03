@@ -1,0 +1,19 @@
+@import 'src/variables';
+
+.content__svg {
+	width: 100%;
+}
+
+.container--full-width {
+	width: calc(100% - 100px);
+}
+
+.bb-tooltip tr,
+.bb-tooltip td {
+	background-color: lighten($background-color, 10%);
+	border-color: lighten($background-color, 20%);
+	color: #fff;
+}
+.bb-tooltip th {
+	display: none;
+}
